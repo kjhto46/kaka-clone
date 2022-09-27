@@ -1,0 +1,6 @@
+.nav {position:fixed; bottom:0; width:100%; padding:20px 40px; background-color: #f9f9fa; border-top:1px solid rgba(121, 121, 121, 0.3); box-sizing:border-box;}
+
+.nav__list {display:flex; justify-content:space-between;}
+.nav__link {position: relative; color:#2e363e;}
+
+.nav__notification {position:absolute; bottom:15px; left:15px; display:flex; justify-content:center; align-items:center; width:30px; height:30px; font-weight:600; color:white; background-color:tomato; border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; }
