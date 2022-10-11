@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <h2>Create An Account</h2>
+    <form action="">
+        <div>
+            <label for="firstName">First name</label>
+            <input id="firstName" type="text" required placeholder="First name">
+        </div>
+        <div>
+            <label for="lastName">Last name</label>
+            <input id="lastName" type="text" required placeholder="Last name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" required placeholder="Last name">
+        </div>
+        <div>
+            <label for="userName">Username</label>
+            <input id="userName" type="text" required placeholder="Username">
+        </div>
+        <div>
+            <label for="passWord">Password</label>
+            <input id="passWord" type="password" required minlength="10" placeholder="Password">
+        </div>
+        <div>
+            <label for="birthDate">Birth date</label>
+            <input id="birthDate" type="date" required placeholder="Password">
+        </div>
+        <div>
+            <label for="happyRange">How happy are you?</label>
+            <input id="happyRange" type="range" required min="1" max="10" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="favColor">What is your fav. color?</label>
+            <input id="favColor" type="color" required >
+        </div>
+        <input type="submit" value="Create Account">
+    </form>
+  </head>
+  <body>
+  </body>
+</html>
