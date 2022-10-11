@@ -1,0 +1,29 @@
+body {background:skyblue;}
+
+div {padding:120px 0; text-align:center;}
+ul {display:flex; align-items: center; justify-content: center; margin:0; padding:0; list-style:none; margin-block-start:0; margin-block-end:0; padding-inline-start:0;}
+ul li { margin:0; padding:0; list-style:none; background:#fff;}
+ul.dotUl {height:8px; animation:rotates 2s ease infinite; -webkit-animation:rotates 2s ease infinite; transform-origin:50% 50%;}
+
+@keyframes rotates {
+    0% { transform:rotate(0deg); -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -ms-transform:rotate(0deg); -o-transform:rotate(0deg); }
+    100% { transform:rotate(360deg); -webkit-transform:rotate(360deg); -moz-transform:rotate(360deg); -ms-transform:rotate(360deg); -o-transform:rotate(360deg); }
+    
+}
+
+ul.dotUl li { width:8px; height:8px; margin:0 10px; border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; }
+
+ul.lineUl {margin:100px 0 0; height:86px;}
+ul.lineUl li { width:12px; height:38px; margin:5px; animation:heightLine 2s ease-in infinite; -webkit-animation:heightLine 2s ease-in infinite; }
+ul.lineUl li:nth-child(1) {animation-delay:0s;}
+ul.lineUl li:nth-child(2) {animation-delay:0.1s;}
+ul.lineUl li:nth-child(3) {animation-delay:0.2s;}
+ul.lineUl li:nth-child(4) {animation-delay:0.3s;}
+ul.lineUl li:nth-child(5) { animation-delay:0.4s;}
+
+@keyframes heightLine {
+    0% {height:38px; }
+    20% { height:86px;}
+    40% { height:38px;}
+    100% {height:38px; }
+}
