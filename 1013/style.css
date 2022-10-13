@@ -1,0 +1,58 @@
+*{outline:0!important; box-sizing:border-box;}
+html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,menu,nav,section,article,aside,dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,input,button,textarea,object,figure,figcaption {margin:0;padding:0;}
+html,body{width:100%;}
+body{width:100%;background:#fff;min-width:320px;-ms-text-size-adjust:100%;text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;word-break:keep-all;}
+body,input,select,textarea,button{border:none;font-size:12px;}
+ul,ol,li{list-style:none;}
+table{width:100%;border-spacing:0;border-collapse:collapse;}
+fieldset{width:100%;border:0;}
+address,cite,code,em{font-style:normal;font-weight:normal;}
+label,img,input,select,textarea,button{vertical-align:middle;}
+.hide,caption,legend{line-height:0;font-size:1px;overflow:hidden;}
+hr{display:none;}
+main,header,section,nav,footer,aside,article,figure{display:block;}
+a{color:#000;text-decoration:none;}
+img,svg {width:auto; max-width:100%;}
+
+.wrap {width:600px; margin:0 auto;}
+header .flexBox {display:flex; align-items: center; justify-content: space-between; padding:60px 20px 80px; background-color:gold;}
+header .flexBox h2 {font-size:30px; font-weight:bold; color:#000;}
+
+header .inputBox {display:flex; justify-content: space-between; width:calc(100% - 40px); margin:0 20px; padding:20px 40px; transform:translate(0,-50%); background:#fff; border-radius:100px; -webkit-border-radius:100px; -moz-border-radius:100px; -ms-border-radius:100px; -o-border-radius:100px; -webkit-transform:translate(0,-50%); -moz-transform:translate(0,-50%); -ms-transform:translate(0,-50%); -o-transform:translate(0,-50%); box-shadow:2px 2px 4px rgba(0,0,0,0.1);}
+header .inputBox input {width:calc(100% - 36px); font-size:24px; color:#000;}
+header .inputBox input::placeholder {color:#ccc;}
+header .inputBox label {color:#ccc;}
+h2.tit {font-size:30px; font-weight:bold; color:#000;}
+
+.bigView .flexBox {display:flex; align-items: center; justify-content: space-between; margin:40px 0 0;}
+.bigView .flexBox figure { width:220px; height: 320px; border-radius:30px; background:orange; -webkit-border-radius:30px; -moz-border-radius:30px; -ms-border-radius:30px; -o-border-radius:30px; }
+.bigView .flexBox .txtBox {width:calc(100% - 220px); padding:0 30px;}
+.bigView .flexBox .txtBox h3 {font-size:30px; font-weight:900; color:#000;}
+.bigView .flexBox .txtBox h4 {margin:15px 0; font-size:20px; font-weight:400; color:#ccc;}
+
+.bigView .flexBox .txtBox ul.starUl li {display:inline-block; margin:0 4px 0 0; color:gold;}
+.bigView .flexBox .txtBox ul.starUl li:last-child {margin:0; color:#ccc;}
+
+.bigView .flexBox .txtBox ul.journey {margin:40px 0;}
+.bigView .flexBox .txtBox ul.journey li {display:inline-block;}
+.bigView .flexBox .txtBox ul.journey li a { display:inline-block; width:120px; line-height:38px; text-align:center; font-weight:900; color:#000; background:#eee; border-radius:8px; -webkit-border-radius:8px; -moz-border-radius:8px; -ms-border-radius:8px; -o-border-radius:8px; }
+.bigView .flexBox .txtBox ul.bookNow {display:flex; align-items: center; justify-content: space-between;}
+.bigView .flexBox .txtBox ul.bookNow li:first-child {display:flex; justify-content: center; align-items: center; width:70px; height:70px; border-radius:50%; background:gold; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; }
+.bigView .flexBox .txtBox ul.bookNow li:last-child a { display:inline-block; width:200px; text-align:center; line-height:70px; font-size:20px; color:#fff; background:#000; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px; }
+
+.scrollDiv {margin:40px 0 0;}
+.scrollDiv .overflow {overflow-x:scroll;}
+.scrollDiv .overflow .bookUl {display:flex; width:120%; margin:40px 0 0;}
+.scrollDiv .overflow .bookUl > li {flex:1; margin:0 30px 0 0; text-align:center;}
+.scrollDiv .overflow .bookUl > li:last-child {margin:0;}
+.scrollDiv .overflow .bookUl > li figure { width:100%; height:220px; background:red; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -ms-border-radius:30px; -o-border-radius:30px; }
+.scrollDiv .overflow .bookUl > li .sStarUl {display:flex; justify-content: center; margin:10px 0 0;}
+.scrollDiv .overflow .bookUl > li .sStarUl li {color:gold;}
+.scrollDiv .overflow .bookUl > li .sStarUl li:last-child {color:#eee;}
+
+.authors {margin:40px 0;}
+.authors ul {display:flex; align-items: center; justify-content: space-between; margin:40px 0 0;}
+.authors ul li:first-child {width:220px; height:240px; border-radius: 30px; background: orange;}
+.authors ul li:last-child {width:calc(100% - 220px); padding:0 30px;}
+.authors ul li:last-child h2 {font-size:30px; font-weight:600; color:#000;}
+.authors ul li:last-child p {margin:30px 0 0; font-size:22px; font-weight:600; color:#eee;}
